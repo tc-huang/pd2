@@ -11,4 +11,4 @@ calculate.o: calculate.cpp calculate.h
 	clean
 
 clean:
-	rm  *.o
+	rm  file_out *.o

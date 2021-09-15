@@ -17,12 +17,12 @@ void Rating::setRnK(int ra, int rb, int k)
 
 double Rating::getEA()
 {
-    return pow((1 + pow(10, (RB - RA) / 400)), -1);
+    return 1.0 / (1.0 + pow(10.0, (RB - RA) / 400.0));
 }
 
 double Rating::getEB()
 {
-    return pow((1 + pow(10, (RA - RB) / 400)), -1);
+    return 1.0 / (1.0 + pow(10.0, (RA - RB) / 400.0));
 }
 
 void Rating::calculateR(double scoreA)
@@ -30,7 +30,7 @@ void Rating::calculateR(double scoreA)
     double EA, EB;
     EA = getEA();
     EB = getEB();
-
+    // cout << EA << " " << EB << endl;
     RA = round(RA + K * (scoreA - EA));
     RB = round(RB + K * ((1 - scoreA) - EB));
 }
