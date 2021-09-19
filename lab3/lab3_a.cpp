@@ -28,5 +28,7 @@ int main(){
         total += weights.at(i);
 
     cout << total << endl;
+    inFile.close();
+    
     return 0;
 }
