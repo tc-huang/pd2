@@ -37,9 +37,9 @@ string str_add(string s1, string s2)
     reverse(s2.begin(), s2.end());
 
     for(int i = 0; i < s2.length(); ++i)
-        s1.at(i) += s2.at(i) - (int)'0';
+        s1.at(i) += s2.at(i) - '0';
     
-    int over_9 = (int)'0' + 9;
+    int over_9 = '0' + 9;
 
     for(int i = 0; i < s1.length() - 1; ++i)
     {
@@ -73,7 +73,7 @@ const HugeInt HugeInt::operator+(const HugeInt& right)
 {
      
     
-    if(this->value.at(0) == (int)'-')
+    if(this->value.at(0) == '-')
         return HugeInt::operator-(right);
 
     HugeInt tmp;
@@ -129,11 +129,11 @@ string str_sub(string s1, string s2)
             diff = s1.at(i) - s2.at(i);
             if(diff < 0)
             {
-                s1.at(i) = diff + (int)'0' + 10;
+                s1.at(i) = diff + '0' + 10;
                 --s1.at(i + 1);
             }
             else
-                s1.at(i) = diff + (int)'0';
+                s1.at(i) = diff + '0';
         }
         else if(s1.at(i) < '0')
         {
@@ -157,7 +157,7 @@ string str_sub(string s1, string s2)
 
 const HugeInt HugeInt::operator-(const HugeInt& right)
 {   
-    if(right.value.at(0) == (int)'-')
+    if(right.value.at(0) == '-')
         return HugeInt::operator+(right);
 
     HugeInt tmp;
