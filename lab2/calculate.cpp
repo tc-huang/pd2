@@ -30,7 +30,6 @@ void Rating::calculateR(double scoreA)
     double EA, EB;
     EA = getEA();
     EB = getEB();
-    // cout << EA << " " << EB << endl;
     RA = round(RA + K * (scoreA - EA));
     RB = round(RB + K * ((1 - scoreA) - EB));
 }

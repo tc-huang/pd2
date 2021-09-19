@@ -2,6 +2,8 @@ CC = g++
 
 main.out: main.o calculate.o
 	$(CC) -o main.out main.o calculate.o -g
+	./main.out
+	cat file.out
 main.o: main.cpp calculate.h
 	$(CC) -c main.cpp -g
 calculate.o: calculate.cpp calculate.h
@@ -11,4 +13,4 @@ calculate.o: calculate.cpp calculate.h
 	clean
 
 clean:
-	rm  file_out *.o
+	rm  file.out *.o *.out
