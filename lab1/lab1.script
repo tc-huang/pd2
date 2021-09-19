@@ -1,0 +1,62 @@
+Script started on Sun Sep 19 13:29:02 2021
+[1m[7m%[27m[1m[0m                                                                                                                    ]2;huangtzuchun@huangzijundeMBP:~/Desktop/pd2/lab1]1;..ktop/pd2/lab1[0m[27m[24m[J[39m[0m[49m[44m [30m [30m~/Desktop/pd2/lab1 [43m[34m [30m  [30m main   [49m[33m[39m [K[37C[39m[0m[49m[30m[39m[40m[32m [32m [39m[33m[39m[43m[30m 11.92G[30m  [39m[32m[39m[42m[30m 1.76[30m   [39m[37m[39m[47m[30m 13:29:03[30m  [K[00m[39m[49m[75D[?1h=[?2004h[32mw[39m[90mhoami;pwd[39m[9D[1m[31mw[1m[31mh[0m[39m[0m[32mw[0m[32mh[32mo[39m[1m[31mw[1m[31mh[1m[31mo[1m[31ma[0m[39m[1m[31ma[1m[31mm[0m[39m[0m[32mw[0m[32mh[0m[32mo[0m[32ma[0m[32mm[32mi[39m[39m;[1m[31mp[0m[39m[1m[31mp[1m[31md[0m[39m[39m [1m[31mp[0m[39m[0m[90mw[90md[39m[1m[31mp[1m[31mw[0m[39m[1m[31mw[1m[31ms[0m[39m[1m[31mw[0m[39m[0m[90md[39m[0m[32mp[0m[32mw[32md[39m[?1l>[?2004l
+]2;whoami; pwd]1;whoami;pwdhuangtzuchun
+/Users/huangtzuchun/Desktop/pd2/lab1
+[1m[7m%[27m[1m[0m                                                                                                                    ]2;huangtzuchun@huangzijundeMBP:~/Desktop/pd2/lab1]1;..ktop/pd2/lab1[0m[27m[24m[J[39m[0m[49m[44m [30m [30m~/Desktop/pd2/lab1 [43m[34m [30m  [30m main   [49m[33m[39m [K[37C[39m[0m[49m[30m[39m[40m[32m [32m [39m[33m[39m[43m[30m 11.93G[30m  [39m[32m[39m[42m[30m 1.77[30m   [39m[37m[39m[47m[30m 13:29:20[30m  [K[00m[39m[49m[75D[?1h=[?2004h[32mg[39m[90mit push[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m[39m [39mc[90mo[90mm[90mm[90mit[39m[39mo[39mn[90mf[90mi[90mg[90m -l[39m[39mf[39mi[39mg[39m-[39m [39m [90m [90m-l[39m[39m [39m-[39ml[?1l>[?2004l
+]2;git config -l]1;git[?1049h[?1h=core.excludesfile=~/.gitignore[m
+core.legacyheaders=false[m
+core.quotepath=false[m
+mergetool.keepbackup=true[m
+push.default=simple[m
+color.ui=auto[m
+color.interactive=auto[m
+repack.usedeltabaseoffset=true[m
+alias.s=status[m
+alias.a=!git add . && git status[m
+alias.au=!git add -u . && git status[m
+alias.aa=!git add . && git add -u . && git status[m
+alias.c=commit[m
+alias.cm=commit -m[m
+alias.ca=commit --amend[m
+alias.ac=!git add . && git commit[m
+alias.acm=!git add . && git commit -m[m
+alias.l=log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'[m
+alias.ll=log --stat --abbrev-commit[m
+alias.lg=log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr[m )%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative[m
+alias.llg=log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(b[m old green)%cr (%ci)' --abbrev-commit[m
+alias.d=diff[m
+alias.master=checkout master[m
+alias.spull=svn rebase[m
+alias.spush=svn dcommit[m
+alias.alias=!git config --list | grep 'alias\.' | sed 's/alias\.\([^=]*\)=\(.*\)/\1\     => \2/' | sort[m
+include.path=~/.gitcinclude[m
+include.path=.githubconfig[m
+include.path=.gitcredential[m
+diff.exif.textconv=exif[m
+credential.helper=osxkeychain[m
+user.email=40145992+JamesHuangTC@users.noreply.github.com[m
+user.name=James Huang[m
+filter.lfs.clean=git-lfs clean -- %f[m
+filter.lfs.smudge=git-lfs smudge -- %f[m
+filter.lfs.process=git-lfs filter-process[m
+filter.lfs.required=true[m
+core.excludesfile=/Users/huangtzuchun/.gitignore_global[m
+difftool.sourcetree.cmd=opendiff "$LOCAL" "$REMOTE"[m
+difftool.sourcetree.path=[m
+mergetool.sourcetree.cmd=/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh "$LOCAL" "$REMOTE" -ancestor [m "$BASE" -merge "$MERGED"[m
+mergetool.sourcetree.trustexitcode=true[m
+core.repositoryformatversion=0[m
+core.filemode=true[m
+core.bare=false[m
+core.logallrefupdates=true[m
+core.ignorecase=true[m
+core.precomposeunicode=true[m
+remote.origin.url=https://github.com/tc-huang/pd2.git[m
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[m
+branch.main.remote=origin[m
+branch.main.merge=refs/heads/main[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[?1l>[?1049l[1m[7m%[27m[1m[0m                                                                                                                    ]2;huangtzuchun@huangzijundeMBP:~/Desktop/pd2/lab1]1;..ktop/pd2/lab1[0m[27m[24m[J[39m[0m[49m[44m [30m [30m~/Desktop/pd2/lab1 [43m[34m [30m  [30m main   [49m[33m[39m [K[37C[39m[0m[49m[30m[39m[40m[32m [32m [39m[33m[39m[43m[30m 11.93G[30m  [39m[32m[39m[42m[30m 1.85[30m   [39m[37m[39m[47m[30m 13:29:41[30m  [K[00m[39m[49m[75D[?1h=[?2004h[32mg[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m clone https://pd2a.imslab.org/git[Klab/\<your gitlab account[33m>[39m[4m/[24m[24m/lab1.git[72D[39m[7mg[39m[7mi[39m[7mt[7m [7mc[7ml[7mo[7mn[7me[7m [7mh[7mt[7mt[7mp[7ms[7m:[7m/[7m/[7mp[7md[7m2[7ma[7m.[7mi[7mm[7ms[7ml[7ma[7mb[7m.[7mo[7mr[7mg[7m/[7mg[7mi[7mt[7ml[7ma[7mb[7m/[7m\[7m<[7my[7mo[7mu[7mr[7m [7mg[7mi[7mt[7ml[7ma[7mb[7m [7ma[7mc[7mc[7mo[7mu[7mn[7mt[39m[7m>[7m/[7ml[7ma[7mb[7m1[7m.[7mg[7mi[7mt[27m[72D[27m[32mg[27m[32mi[27m[32mt[39m[27m [27mc[27ml[27mo[27mn[27me[27m [27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mp[27md[27m2[27ma[27m.[27mi[27mm[27ms[27ml[27ma[27mb[27m.[27mo[27mr[27mg[27m/[27mg[27mi[27mt[27ml[27ma[27mb[27m/[27m\[27m<[27my[27mo[27mu[27mr[27m [27mg[27mi[27mt[27ml[27ma[27mb[27m [27ma[27mc[27mc[27mo[27mu[27mn[27mt[27m[33m>[39m[27m/[27ml[27ma[27mb[27m1[27m.[27mg[27mi[27mt[?1l>[?2004l
+]2;git clone https://pd2a.imslab.org/gitlab/\<your gitlab account > /lab1.git]1;gitzsh: read-only file system: /lab1.git
+[1m[7m%[27m[1m[0m                                                                                                                    ]2;huangtzuchun@huangzijundeMBP:~/Desktop/pd2/lab1]1;..ktop/pd2/lab1[0m[27m[24m[J[39m[0m[49m[44m [30m [30m~/Desktop/pd2/lab1 [43m[34m [30m  [30m main   [49m[33m[39m [K[35C[39m[0m[49m[31m[39m[41m[38;5;226m 1[38;5;226m ↵ [39m[33m[39m[43m[30m 11.91G[30m  [39m[32m[39m[42m[30m 1.86[30m   [39m[37m[39m[47m[30m 13:29:58[30m  [K[00m[39m[49m[75D[?1h=[?2004h[?2004l
+
+Script done on Sun Sep 19 13:30:09 2021
